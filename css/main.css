@@ -1,3 +1,6 @@
+li a {
+    font-family: Arial, sans-serif;
+}
 body, ul, li, a, p {
     padding: 0;
     margin: 0;
@@ -5,6 +8,13 @@ body, ul, li, a, p {
 
 li {
     list-style: none;
+}
+
+li a {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 a:hover {
@@ -26,6 +36,14 @@ h1 {
 header {
     background-color: lightblue;
     padding: 15px 0 15px;
+}
+
+header .logo {
+    margin: 20px 0
+}
+
+nav {
+    margin-bottom: 20px;
 }
 .flex-item {
     display: flex;
