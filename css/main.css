@@ -1,3 +1,26 @@
+li a {
+    font-family: Arial, sans-serif;
+}
+body, ul, li, a, p {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 h1 {
     margin-top: 6rem;
     text-align: center;
@@ -14,6 +37,14 @@ header {
     background-color: lightblue;
     padding: 15px 0 15px;
 }
+
+header .logo {
+    margin: 20px 0
+}
+
+nav {
+    margin-bottom: 20px;
+}
 .flex-item {
     display: flex;
     justify-content: space-between;
@@ -23,4 +54,26 @@ header {
 }
 .header-p {
     text-align: center;
+}
+
+footer {
+    background-color: cadetblue;
+}
+
+.footer-menu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.footer-menu li a {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 700;
+    text-decoration: none;
 }
