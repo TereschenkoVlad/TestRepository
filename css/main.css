@@ -18,6 +18,26 @@ h1 {
     font-family: sans-serif;
 }
 
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: lightblue;
+    padding: 15px 0 15px;
+}
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+}
+.align-right {
+    text-align: right;
+}
+.header-p {
+    text-align: center;
+}
+
 footer {
     background-color: cadetblue;
 }
